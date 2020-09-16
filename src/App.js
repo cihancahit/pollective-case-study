@@ -44,7 +44,8 @@ class Main extends React.Component {
     } else {
       return (
         <div>
-        <div className="overlay"></div>
+          <div className="view">
+          <div className="overlay"></div>
         <Topbar username={data.owner.userName} />
         <Question question={data.questions}/>
         <Bottom/> 
@@ -52,6 +53,8 @@ class Main extends React.Component {
                  voters={data.voters_count}
                  question={data.questions} 
                  deadline={data.deadlineDay}/>
+          </div>
+      
 
         
         </div>
