@@ -1,5 +1,5 @@
 
-run /
+run 
 
 npm install
 
